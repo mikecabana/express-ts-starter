@@ -1,11 +1,19 @@
 # express-ts-starter
+
 A starter project for express using typescript with vscode debug wired in. 
+This project is extremly unopinionated and is just enough to get you started the way you think you should.
+No structure, no suggestions, no templating. Those are decisions you have to make 😜!
 
 ### How to use?
 
 #### Prerequisites 
 
-Install all the pacakges by running 
+Node: `v10+` <br>
+npm: `v6+` <sub>(usually ships with node)</sub>
+
+#### Steps to run
+
+If it's the first time trying to run the starter, install all dependancies 
 ~~~terminal
 npm install
 ~~~
