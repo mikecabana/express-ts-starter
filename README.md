@@ -25,7 +25,7 @@ Build the project (outputs to `./dist`)
 npm run build
 ~~~
 
-Rund the built project
+Run the built project
 ~~~terminal
 npm start
 ~~~
