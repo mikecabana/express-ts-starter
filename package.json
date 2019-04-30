@@ -1,7 +1,7 @@
 {
   "name": "express-ts-starter",
   "version": "0.0.1",
-  "description": "am express app starter that uses typescript",
+  "description": "an express app starter that uses typescript",
   "main": "app.ts",
   "scripts": {
     "tsc": "tsc",
