@@ -37,3 +37,10 @@ Run the built project
 ~~~terminal
 npm start
 ~~~
+
+### How to use with Docker?
+
+~~~terminal
+docker build -t realtime-app .
+docker run -it --rm -p 3000:3000 --name realtime-app realtime-app
+~~~
