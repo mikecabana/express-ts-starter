@@ -7,7 +7,7 @@
     "tsc": "tsc",
     "tslint": "tslint",
     "build": "tsc",
-    "start": "node dir/app.js",
+    "start": "node dist/app.js",
     "dev": "ts-node-dev --transpileOnly -- ./src/app.ts",
     "debug": "ts-node-dev --transpileOnly --inspect -- ./src/app.ts"
   },
