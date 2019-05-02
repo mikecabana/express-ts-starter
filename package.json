@@ -16,9 +16,20 @@
     "typescript",
     "tslint"
   ],
+  "repository": {
+    "git": "https://github.com/mikecabana/express-ts-starter.git"
+  },
   "author": "Michael Cabana <mikeycabana@gmail.com>",
+  "contributors": [
+    {
+      "name": "Michael Cabana",
+      "email": "mikeycabana@gmail.com",
+      "url": "https://github.com/mikecabana"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
+    "@types/body-parser": "^1.17.0",
     "@types/cors": "^2.8.4",
     "@types/dotenv": "^6.1.0",
     "@types/express": "^4.16.1",
@@ -31,6 +42,7 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
