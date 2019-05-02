@@ -41,6 +41,6 @@ npm start
 ### How to use with Docker?
 
 ~~~terminal
-docker build -t realtime-app .
-docker run -it --rm -p 3000:3000 --name realtime-app realtime-app
+docker build -t ts-express-app .
+docker run -it --rm -p 3000:3000 --name ts-express-app ts-express-app
 ~~~
