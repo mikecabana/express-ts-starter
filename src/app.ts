@@ -17,16 +17,15 @@ app.use(helmet());
 app.use(cors());
 
 app.get('/', async (req, res) => {
+	// simulate a slow response
+	const pause = new Promise((resolve) => {
+		setTimeout(() => resolve(), 2000);
+	});
+	await pause;
 
-    // simulate a slow response
-    const pause = new Promise((resolve) => {
-        setTimeout(() => resolve(), 2000);
-    });
-    await pause;
-
-    res.send('Hello World!');
+	res.send('Hello World!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Express Typescript starter listening on port ${PORT}...`);
+	console.log(`Express Typescript starter listening on port ${PORT}...`);
 });
