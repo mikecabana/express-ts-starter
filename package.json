@@ -30,9 +30,7 @@
     "license": "MIT",
     "devDependencies": {
         "@types/cors": "^2.8.12",
-        "@types/dotenv": "^8.2.0",
         "@types/express": "^4.17.8",
-        "@types/helmet": "^4.0.0",
         "@types/morgan": "^1.9.3",
         "@types/node": "^16.11.47",
         "@typescript-eslint/eslint-plugin": "^5.32.0",
