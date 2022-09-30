@@ -1,32 +1,32 @@
-# express-ts-starter
+# Express Typescript Starter Project
 
-A starter express app using Typescript! The point of this project is to give you a super simple foundation to get off the ground quickly. It's unopiniated, has no structure(ish) and no templating. These are decisions you'll need to make😜!
+A starter node app using express and typescript! A super simple base to get off the ground quickly. It's unopiniated, has no structure(ish) and no templating.
 
-Oh it also gives you VSCode debuging to boot!
+## How to use?
 
-### How to use?
+### Prerequisites 
 
-#### Prerequisites 
+make sure you have `node` and `npm` installed
 
-Node: `v10+` <br>
-npm: `v6+` <sub>(usually ships with node)</sub>
+### Commands
 
-#### Steps to run
+#### Install
 
-If it's the first time trying to run the starter, install all dependancies 
+If it's the first time trying to run this starter project, install all the dependancies 
 ~~~terminal
 npm install
 ~~~
 
-Run the `development` server
+#### Start developemnt server
+
+Start the `development` server by running the following command in a terminal from the root folder of the project 
 ~~~terminal
 npm run dev
 ~~~
 
-Start a `development` server which the `VSCode debugger` can attach to. The VSCode debug launch config can be found in [.vscode](.vscode). 
-~~~terminal
-npm run debug
-~~~
+If you're in VSCode, run using the debugger by hitting `F5`
+
+#### Build and Start for production
 
 Build the project (outputs to `./dist`)
 ~~~terminal
@@ -38,7 +38,7 @@ Run the built project
 npm start
 ~~~
 
-### How to use with Docker?
+## How to use with Docker?
 
 ~~~terminal
 docker build -t ts-express-app .

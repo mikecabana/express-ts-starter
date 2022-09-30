@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch via NPM",
             "runtimeExecutable": "npm",
-            "runtimeArgs": ["run-script", "start"],
+            "runtimeArgs": ["run-script", "dev"],
             "console": "integratedTerminal",
             "restart": true
         }
